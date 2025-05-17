@@ -51,17 +51,17 @@ const App = () => {
           {[
             {
               name: "Кубічний лід",
-              img: "./assets/cub.jpg",
+              img: "/assets/cub.jpg",
               desc: "Класика для будь-яких потреб. Вічний стандарт холоду.",
             },
             {
               name: "Художній лід",
-              img: "./assets/hud.jpg",
+              img: "/assets/hud.jpg",
               desc: "У формі пінгвінів, сніжинок і не тільки!",
             },
             {
               name: "Арктичний лід",
-              img: "./assets/arc.jpg",
+              img: "/assets/arc.jpg",
               desc: "Зібрано з любов’ю прямо зі снігів Арктики.",
             },
           ].map((item, idx) => (
